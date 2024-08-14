@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Score Widget</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .link-container {
+            font-size: 12px;
+            margin-top: 10px;
+        }
+
+        .link-container a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .link-container a:hover {
+            text-decoration: underline;
+        }
+
+        iframe {
+            border: none;
+        }
+
+        .iframe-container {
+            margin-bottom: 20px;
+        }
+
+        #sofa-lineups-embed-12528192 {
+            height: 786px !important;
+            max-width: 800px !important;
+            width: 100% !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Live Score Widget</h1>
+        
+        <!-- İlk iframe -->
+        <div class="iframe-container">
+            <iframe width="100%" height="286" src="https://widgets.sofascore.com/en-US/embed/attackMomentum?id=12528192&widgetTheme=light" frameborder="0" scrolling="no"></iframe>
+            <div class="link-container">
+                <a href="https://www.sofascore.com/en-us/yilport-samsunspor-besiktas/albsdlb#id:12528192" target="_blank" rel="noreferrer">
+                    Yılport Samsunspor - Beşiktaş Live Score
+                </a>
+            </div>
+        </div>
+
+        <!-- İkinci iframe -->
+        <div class="iframe-container">
+            <iframe id="sofa-lineups-embed-12528192" src="https://widgets.sofascore.com/en-US/embed/lineups?id=12528192&widgetTheme=light" frameborder="0" scrolling="no"></iframe>
+            <div class="link-container">
+                <a href="https://www.sofascore.com/en-us/yilport-samsunspor-besiktas/albsdlb#id:12528192" target="_blank" rel="noreferrer">
+                    Yılport Samsunspor - Beşiktaş Live Score
+                </a>
+            </div>
+        </div>
+    </div>
+    <script>
+        // Şu anda JavaScript kodu eklenmedi, ancak gelecekte etkileşimli özellikler eklemek için kullanılabilir
+        console.log("JavaScript çalışıyor!");
+    </script>
+</body>
+</html>
